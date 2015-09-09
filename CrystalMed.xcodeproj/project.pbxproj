@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7801ED7E1B9B079900BBA785 /* UIColor+CrystalMed.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED7D1B9B079900BBA785 /* UIColor+CrystalMed.m */; };
+		7801ED811B9B0DE300BBA785 /* CMObjectListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED801B9B0DE300BBA785 /* CMObjectListView.m */; };
+		7801ED841B9B0E1600BBA785 /* CMEnterDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED831B9B0E1600BBA785 /* CMEnterDetailsView.m */; };
+		7801ED871B9B260A00BBA785 /* CMHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED861B9B260A00BBA785 /* CMHomeView.m */; };
+		7801ED901B9B740800BBA785 /* CMPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED8F1B9B740800BBA785 /* CMPostCell.m */; };
+		7801ED961B9B77FF00BBA785 /* CMNewTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED951B9B77FF00BBA785 /* CMNewTipView.m */; };
+		7801ED9C1B9B9C8C00BBA785 /* CMProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED9B1B9B9C8C00BBA785 /* CMProfileView.m */; };
+		7801ED9F1B9B9D7600BBA785 /* CMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801ED9E1B9B9D7600BBA785 /* CMTabBarController.m */; };
+		78B59FD11B9C3671009EDA0F /* CMTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FD01B9C3671009EDA0F /* CMTweetCell.m */; };
+		78B59FD81B9C3F76009EDA0F /* NSArray+PFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FD31B9C3F76009EDA0F /* NSArray+PFObject.m */; };
+		78B59FD91B9C3F76009EDA0F /* NSError+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FD51B9C3F76009EDA0F /* NSError+Parse.m */; };
+		78B59FDA1B9C3F76009EDA0F /* NSSet+PFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FD71B9C3F76009EDA0F /* NSSet+PFObject.m */; };
+		78B59FDD1B9C4034009EDA0F /* CMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FDC1B9C4034009EDA0F /* CMButton.m */; };
+		78B59FE31B9C5458009EDA0F /* CMProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B59FE21B9C5458009EDA0F /* CMProfileCell.m */; };
+		78EFFBCE1B9BBC35003ECADA /* CMTwitterList.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801EDD61B9BB97900BBA785 /* CMTwitterList.m */; };
+		78F1DCD21B9B05D90095F0C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1DCD11B9B05D90095F0C6 /* main.m */; };
+		78F1DCD51B9B05D90095F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1DCD41B9B05D90095F0C6 /* AppDelegate.m */; };
+		78F1DCDE1B9B05D90095F0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1DCDC1B9B05D90095F0C6 /* Main.storyboard */; };
+		78F1DCE01B9B05D90095F0C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F1DCDF1B9B05D90095F0C6 /* Images.xcassets */; };
+		78F1DCE31B9B05D90095F0C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78F1DCE11B9B05D90095F0C6 /* LaunchScreen.xib */; };
+		78F1DCEF1B9B05D90095F0C6 /* CrystalMedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F1DCEE1B9B05D90095F0C6 /* CrystalMedTests.m */; };
+		AAA2A99C8C51690DCD932957 /* libPods-CrystalMed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC488DE21399A621A5117FE3 /* libPods-CrystalMed.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78F1DCE91B9B05D90095F0C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78F1DCC41B9B05D90095F0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F1DCCB1B9B05D90095F0C6;
+			remoteInfo = CrystalMed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112241D1A3F512B4985F6E88 /* Pods-CrystalMed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalMed.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrystalMed/Pods-CrystalMed.release.xcconfig"; sourceTree = "<group>"; };
+		7801ED7B1B9B070800BBA785 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7801ED7C1B9B079900BBA785 /* UIColor+CrystalMed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrystalMed.h"; sourceTree = "<group>"; };
+		7801ED7D1B9B079900BBA785 /* UIColor+CrystalMed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrystalMed.m"; sourceTree = "<group>"; };
+		7801ED7F1B9B0DE300BBA785 /* CMObjectListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMObjectListView.h; sourceTree = "<group>"; };
+		7801ED801B9B0DE300BBA785 /* CMObjectListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMObjectListView.m; sourceTree = "<group>"; };
+		7801ED821B9B0E1600BBA785 /* CMEnterDetailsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMEnterDetailsView.h; sourceTree = "<group>"; };
+		7801ED831B9B0E1600BBA785 /* CMEnterDetailsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMEnterDetailsView.m; sourceTree = "<group>"; };
+		7801ED851B9B260A00BBA785 /* CMHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMHomeView.h; sourceTree = "<group>"; };
+		7801ED861B9B260A00BBA785 /* CMHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMHomeView.m; sourceTree = "<group>"; };
+		7801ED8E1B9B740800BBA785 /* CMPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPostCell.h; sourceTree = "<group>"; };
+		7801ED8F1B9B740800BBA785 /* CMPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPostCell.m; sourceTree = "<group>"; };
+		7801ED941B9B77FF00BBA785 /* CMNewTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMNewTipView.h; path = ../CMNewTipView.h; sourceTree = "<group>"; };
+		7801ED951B9B77FF00BBA785 /* CMNewTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CMNewTipView.m; path = ../CMNewTipView.m; sourceTree = "<group>"; };
+		7801ED9A1B9B9C8C00BBA785 /* CMProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMProfileView.h; sourceTree = "<group>"; };
+		7801ED9B1B9B9C8C00BBA785 /* CMProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMProfileView.m; sourceTree = "<group>"; };
+		7801ED9D1B9B9D7600BBA785 /* CMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTabBarController.h; sourceTree = "<group>"; };
+		7801ED9E1B9B9D7600BBA785 /* CMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTabBarController.m; sourceTree = "<group>"; };
+		7801EDD51B9BB97900BBA785 /* CMTwitterList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CMTwitterList.h; path = ../CMTwitterList.h; sourceTree = "<group>"; };
+		7801EDD61B9BB97900BBA785 /* CMTwitterList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CMTwitterList.m; path = ../CMTwitterList.m; sourceTree = "<group>"; };
+		78B59FCF1B9C3671009EDA0F /* CMTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTweetCell.h; sourceTree = "<group>"; };
+		78B59FD01B9C3671009EDA0F /* CMTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTweetCell.m; sourceTree = "<group>"; };
+		78B59FD21B9C3F76009EDA0F /* NSArray+PFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PFObject.h"; sourceTree = "<group>"; };
+		78B59FD31B9C3F76009EDA0F /* NSArray+PFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PFObject.m"; sourceTree = "<group>"; };
+		78B59FD41B9C3F76009EDA0F /* NSError+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Parse.h"; sourceTree = "<group>"; };
+		78B59FD51B9C3F76009EDA0F /* NSError+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Parse.m"; sourceTree = "<group>"; };
+		78B59FD61B9C3F76009EDA0F /* NSSet+PFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+PFObject.h"; sourceTree = "<group>"; };
+		78B59FD71B9C3F76009EDA0F /* NSSet+PFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+PFObject.m"; sourceTree = "<group>"; };
+		78B59FDB1B9C4034009EDA0F /* CMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMButton.h; sourceTree = "<group>"; };
+		78B59FDC1B9C4034009EDA0F /* CMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMButton.m; sourceTree = "<group>"; };
+		78B59FE11B9C5458009EDA0F /* CMProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMProfileCell.h; sourceTree = "<group>"; };
+		78B59FE21B9C5458009EDA0F /* CMProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMProfileCell.m; sourceTree = "<group>"; };
+		78F1DCCC1B9B05D90095F0C6 /* CrystalMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F1DCD01B9B05D90095F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F1DCD11B9B05D90095F0C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78F1DCD31B9B05D90095F0C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78F1DCD41B9B05D90095F0C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78F1DCDD1B9B05D90095F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78F1DCDF1B9B05D90095F0C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78F1DCE21B9B05D90095F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		78F1DCE81B9B05D90095F0C6 /* CrystalMedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalMedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F1DCED1B9B05D90095F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F1DCEE1B9B05D90095F0C6 /* CrystalMedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalMedTests.m; sourceTree = "<group>"; };
+		AC488DE21399A621A5117FE3 /* libPods-CrystalMed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CrystalMed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC3D9E62F927848B634D08D /* Pods-CrystalMed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalMed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrystalMed/Pods-CrystalMed.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78F1DCC91B9B05D90095F0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA2A99C8C51690DCD932957 /* libPods-CrystalMed.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F1DCE51B9B05D90095F0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515D5042150C540A9FE3309E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACC3D9E62F927848B634D08D /* Pods-CrystalMed.debug.xcconfig */,
+				112241D1A3F512B4985F6E88 /* Pods-CrystalMed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78E34A271BA03A8A000555B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				78B59FD21B9C3F76009EDA0F /* NSArray+PFObject.h */,
+				78B59FD31B9C3F76009EDA0F /* NSArray+PFObject.m */,
+				78B59FD41B9C3F76009EDA0F /* NSError+Parse.h */,
+				78B59FD51B9C3F76009EDA0F /* NSError+Parse.m */,
+				78B59FD61B9C3F76009EDA0F /* NSSet+PFObject.h */,
+				78B59FD71B9C3F76009EDA0F /* NSSet+PFObject.m */,
+				7801ED7C1B9B079900BBA785 /* UIColor+CrystalMed.h */,
+				7801ED7D1B9B079900BBA785 /* UIColor+CrystalMed.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		78E34A281BA03A9A000555B0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				78B59FE11B9C5458009EDA0F /* CMProfileCell.h */,
+				78B59FE21B9C5458009EDA0F /* CMProfileCell.m */,
+				78B59FCF1B9C3671009EDA0F /* CMTweetCell.h */,
+				78B59FD01B9C3671009EDA0F /* CMTweetCell.m */,
+				7801ED8E1B9B740800BBA785 /* CMPostCell.h */,
+				7801ED8F1B9B740800BBA785 /* CMPostCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		78F1DCC31B9B05D90095F0C6 = {
+			isa = PBXGroup;
+			children = (
+				78F1DCCE1B9B05D90095F0C6 /* CrystalMed */,
+				78F1DCEB1B9B05D90095F0C6 /* CrystalMedTests */,
+				78F1DCCD1B9B05D90095F0C6 /* Products */,
+				515D5042150C540A9FE3309E /* Pods */,
+				7C621E47AA30867894252BB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78F1DCCD1B9B05D90095F0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78F1DCCC1B9B05D90095F0C6 /* CrystalMed.app */,
+				78F1DCE81B9B05D90095F0C6 /* CrystalMedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F1DCCE1B9B05D90095F0C6 /* CrystalMed */ = {
+			isa = PBXGroup;
+			children = (
+				78E34A281BA03A9A000555B0 /* Cells */,
+				78E34A271BA03A8A000555B0 /* Categories */,
+				78F1DCD31B9B05D90095F0C6 /* AppDelegate.h */,
+				78F1DCD41B9B05D90095F0C6 /* AppDelegate.m */,
+				78F1DCDC1B9B05D90095F0C6 /* Main.storyboard */,
+				7801ED9A1B9B9C8C00BBA785 /* CMProfileView.h */,
+				7801ED9B1B9B9C8C00BBA785 /* CMProfileView.m */,
+				7801EDD51B9BB97900BBA785 /* CMTwitterList.h */,
+				7801EDD61B9BB97900BBA785 /* CMTwitterList.m */,
+				7801ED941B9B77FF00BBA785 /* CMNewTipView.h */,
+				7801ED951B9B77FF00BBA785 /* CMNewTipView.m */,
+				78B59FDB1B9C4034009EDA0F /* CMButton.h */,
+				78B59FDC1B9C4034009EDA0F /* CMButton.m */,
+				7801ED851B9B260A00BBA785 /* CMHomeView.h */,
+				7801ED861B9B260A00BBA785 /* CMHomeView.m */,
+				7801ED7F1B9B0DE300BBA785 /* CMObjectListView.h */,
+				7801ED801B9B0DE300BBA785 /* CMObjectListView.m */,
+				7801ED821B9B0E1600BBA785 /* CMEnterDetailsView.h */,
+				7801ED831B9B0E1600BBA785 /* CMEnterDetailsView.m */,
+				78F1DCDF1B9B05D90095F0C6 /* Images.xcassets */,
+				7801ED9D1B9B9D7600BBA785 /* CMTabBarController.h */,
+				7801ED9E1B9B9D7600BBA785 /* CMTabBarController.m */,
+				78F1DCE11B9B05D90095F0C6 /* LaunchScreen.xib */,
+				78F1DCCF1B9B05D90095F0C6 /* Supporting Files */,
+			);
+			path = CrystalMed;
+			sourceTree = "<group>";
+		};
+		78F1DCCF1B9B05D90095F0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7801ED7B1B9B070800BBA785 /* PrefixHeader.pch */,
+				78F1DCD01B9B05D90095F0C6 /* Info.plist */,
+				78F1DCD11B9B05D90095F0C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78F1DCEB1B9B05D90095F0C6 /* CrystalMedTests */ = {
+			isa = PBXGroup;
+			children = (
+				78F1DCEE1B9B05D90095F0C6 /* CrystalMedTests.m */,
+				78F1DCEC1B9B05D90095F0C6 /* Supporting Files */,
+			);
+			path = CrystalMedTests;
+			sourceTree = "<group>";
+		};
+		78F1DCEC1B9B05D90095F0C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78F1DCED1B9B05D90095F0C6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C621E47AA30867894252BB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC488DE21399A621A5117FE3 /* libPods-CrystalMed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78F1DCCB1B9B05D90095F0C6 /* CrystalMed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F1DCF21B9B05D90095F0C6 /* Build configuration list for PBXNativeTarget "CrystalMed" */;
+			buildPhases = (
+				0016657818CACAFBF26C091A /* Check Pods Manifest.lock */,
+				78F1DCC81B9B05D90095F0C6 /* Sources */,
+				78F1DCC91B9B05D90095F0C6 /* Frameworks */,
+				78F1DCCA1B9B05D90095F0C6 /* Resources */,
+				92A711005F46443036BFD516 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrystalMed;
+			productName = CrystalMed;
+			productReference = 78F1DCCC1B9B05D90095F0C6 /* CrystalMed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F1DCE71B9B05D90095F0C6 /* CrystalMedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F1DCF51B9B05D90095F0C6 /* Build configuration list for PBXNativeTarget "CrystalMedTests" */;
+			buildPhases = (
+				78F1DCE41B9B05D90095F0C6 /* Sources */,
+				78F1DCE51B9B05D90095F0C6 /* Frameworks */,
+				78F1DCE61B9B05D90095F0C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F1DCEA1B9B05D90095F0C6 /* PBXTargetDependency */,
+			);
+			name = CrystalMedTests;
+			productName = CrystalMedTests;
+			productReference = 78F1DCE81B9B05D90095F0C6 /* CrystalMedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78F1DCC41B9B05D90095F0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = AMEEHacks;
+				TargetAttributes = {
+					78F1DCCB1B9B05D90095F0C6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = WKMW79GQSM;
+					};
+					78F1DCE71B9B05D90095F0C6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 78F1DCCB1B9B05D90095F0C6;
+					};
+				};
+			};
+			buildConfigurationList = 78F1DCC71B9B05D90095F0C6 /* Build configuration list for PBXProject "CrystalMed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78F1DCC31B9B05D90095F0C6;
+			productRefGroup = 78F1DCCD1B9B05D90095F0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78F1DCCB1B9B05D90095F0C6 /* CrystalMed */,
+				78F1DCE71B9B05D90095F0C6 /* CrystalMedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F1DCCA1B9B05D90095F0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1DCDE1B9B05D90095F0C6 /* Main.storyboard in Resources */,
+				78F1DCE31B9B05D90095F0C6 /* LaunchScreen.xib in Resources */,
+				78F1DCE01B9B05D90095F0C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F1DCE61B9B05D90095F0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0016657818CACAFBF26C091A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92A711005F46443036BFD516 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrystalMed/Pods-CrystalMed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78F1DCC81B9B05D90095F0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1DCD51B9B05D90095F0C6 /* AppDelegate.m in Sources */,
+				78B59FE31B9C5458009EDA0F /* CMProfileCell.m in Sources */,
+				78B59FDD1B9C4034009EDA0F /* CMButton.m in Sources */,
+				78EFFBCE1B9BBC35003ECADA /* CMTwitterList.m in Sources */,
+				78F1DCD21B9B05D90095F0C6 /* main.m in Sources */,
+				7801ED811B9B0DE300BBA785 /* CMObjectListView.m in Sources */,
+				7801ED961B9B77FF00BBA785 /* CMNewTipView.m in Sources */,
+				7801ED9C1B9B9C8C00BBA785 /* CMProfileView.m in Sources */,
+				7801ED901B9B740800BBA785 /* CMPostCell.m in Sources */,
+				78B59FD91B9C3F76009EDA0F /* NSError+Parse.m in Sources */,
+				7801ED841B9B0E1600BBA785 /* CMEnterDetailsView.m in Sources */,
+				78B59FD81B9C3F76009EDA0F /* NSArray+PFObject.m in Sources */,
+				7801ED9F1B9B9D7600BBA785 /* CMTabBarController.m in Sources */,
+				78B59FD11B9C3671009EDA0F /* CMTweetCell.m in Sources */,
+				7801ED7E1B9B079900BBA785 /* UIColor+CrystalMed.m in Sources */,
+				7801ED871B9B260A00BBA785 /* CMHomeView.m in Sources */,
+				78B59FDA1B9C3F76009EDA0F /* NSSet+PFObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F1DCE41B9B05D90095F0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F1DCEF1B9B05D90095F0C6 /* CrystalMedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78F1DCEA1B9B05D90095F0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F1DCCB1B9B05D90095F0C6 /* CrystalMed */;
+			targetProxy = 78F1DCE91B9B05D90095F0C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78F1DCDC1B9B05D90095F0C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F1DCDD1B9B05D90095F0C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78F1DCE11B9B05D90095F0C6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78F1DCE21B9B05D90095F0C6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78F1DCF01B9B05D90095F0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = CrystalMed/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78F1DCF11B9B05D90095F0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = CrystalMed/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78F1DCF31B9B05D90095F0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC3D9E62F927848B634D08D /* Pods-CrystalMed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CrystalMed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78F1DCF41B9B05D90095F0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112241D1A3F512B4985F6E88 /* Pods-CrystalMed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CrystalMed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78F1DCF61B9B05D90095F0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrystalMedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalMed.app/CrystalMed";
+			};
+			name = Debug;
+		};
+		78F1DCF71B9B05D90095F0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrystalMedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalMed.app/CrystalMed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78F1DCC71B9B05D90095F0C6 /* Build configuration list for PBXProject "CrystalMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F1DCF01B9B05D90095F0C6 /* Debug */,
+				78F1DCF11B9B05D90095F0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F1DCF21B9B05D90095F0C6 /* Build configuration list for PBXNativeTarget "CrystalMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F1DCF31B9B05D90095F0C6 /* Debug */,
+				78F1DCF41B9B05D90095F0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F1DCF51B9B05D90095F0C6 /* Build configuration list for PBXNativeTarget "CrystalMedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F1DCF61B9B05D90095F0C6 /* Debug */,
+				78F1DCF71B9B05D90095F0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78F1DCC41B9B05D90095F0C6 /* Project object */;
+}

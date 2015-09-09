@@ -1,0 +1,1 @@
+PODS_CRYSTALMED_MZFORMSHEETCONTROLLER_OTHER_LDFLAGS = -framework "Accelerate" -framework "QuartzCore"

@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  CrystalMed
+//
+//  Created by JAMES GUPTA on 05/09/2015.
+//  Copyright (c) 2015 AMEEHacks. All rights reserved.
+//
+
+#ifndef CrystalMed_PrefixHeader_pch
+#define CrystalMed_PrefixHeader_pch
+
+#define ALWAYS_SHOW_INTRODUCTION = 0;
+
+
+#import "UIColor+CrystalMed.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
